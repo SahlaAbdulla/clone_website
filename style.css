@@ -1,0 +1,51 @@
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+}
+.list p{
+    justify-content: space-between;
+}
+.list p:hover{
+    
+    box-shadow: 4px 5px 6px red;
+}
+#home{
+    height: 460px;
+    background-image: url(https://cdn3.desidime.com/topics/photos/1529318/original/LP_banner_BOSS_640x280.jpg?1673938409);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .deal{
+    
+    text-align: center;
+    margin-top: 9px;
+ }
+ .deal .btn:hover{
+    box-shadow: 4px 7px 6px black;
+ }
+ .row .btn:hover{
+    background: linear-gradient(white,black);
+
+ }
+ 
+ .makeup{
+    display: flex;
+ }
+ .makeup .btn:hover{
+    background-color: red;
+    box-shadow: 4px 6px 3px bisque;
+ }
+ .m{
+    display: flex;
+ }
+ .m .btn:hover{
+    background-color: blue;
+    box-shadow: 4px 5px 6px bisque;
+ }
+ .row1{
+    display: flex;
+ }
